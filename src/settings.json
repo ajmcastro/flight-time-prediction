@@ -1,0 +1,11 @@
+{
+  "dataset": {
+    "imputed": false,
+    "target": "air_time",
+    "cat_encoding": "leave_one_out",
+    "fleet_type": "whole"
+  },
+  "model": {
+    "model_name": "stacking"
+  }
+}
