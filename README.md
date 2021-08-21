@@ -7,9 +7,16 @@ The models were trained on data from a European Airline air traffic activity fro
 
 After extensive experiments, the most successful models were built, making use of a stack of linear estimators with gradient boosting as meta-estimator.
 
-Main Author: Afonso Manuel Maia Lopes Salgado de Sousa
+Main Author: Afonso Manuel Maia Lopes Salgado de Sousa (afonsousa2806@gmail.com)
 
-Supervisors: Ana Paula Rocha and António J. M. Castro
+Supervisors: Ana Paula Rocha (arocha@fe.up.pt) and António J. M. Castro (frisky.antonio@gmail.com)
+
+## Application Use Case
+One wants to assess the impact of one or more disruptions, on the airline operational plan, for the next X number of days. That is, one wants to know how many flights, for how long and wich flights will be delayed, how many crew members, for how long and individual crew names will be delayed and have their schedule disrupted and, finally, how many, for how long and which passengers will miss connections. 
+
+To do such assessment, one needs to know the expected block times for each flight and/or the flight time plus taxi time out and taxi time in. The schedule block times, typically, do not represent the "real" block times and, as such, should not be used to do this assessment. Additionally, the flight plan for each flight is available only closer to the flight schedule time of departure and, as such, cannot be used for the assessment as well.
+
+The goal of this project is to provide a machine learning model, that also considers weather information, that can predict the block times (or flight times and taxi times) long in advance, so that the impact assessement on the operational plan can be more accurate. 
 
 ## Project File Structure:
 The root of the project comprises four folders:
