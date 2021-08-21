@@ -1,7 +1,15 @@
 # Predictive Analysis of Flight Times
 
-This project is a data mining approach on flight time prediction. It is comprised of four regression problems.
-The data used was provided by TAP (the Portuguese airline), and weather data was extracted to enhance the dataset.
+This project is a data mining approach on prediction of the aircraft movement times, namely, taxi-in, taxi-out, airtime and block time. 
+These predicted times are expected to produce more accurate data and are to be used in an OCC (operational control center) decision support system to replace the use of scheduled or OCC-estimated times. 
+
+The models were trained on data from a European Airline air traffic activity from 2013 to 2018, along with scraped weather data retrieved from Iowa Environmental Mesonet. The data was analysed and refactored, along with some feature engineering. 
+
+After extensive experiments, the most successful models were built, making use of a stack of linear estimators with gradient boosting as meta-estimator.
+
+Main Author: Afonso Manuel Maia Lopes Salgado de Sousa
+
+Supervisors: Ana Paula Rocha and António J. M. Castro
 
 ## Project File Structure:
 The root of the project comprises four folders:
@@ -11,7 +19,7 @@ The root of the project comprises four folders:
 * src - with the source code
 
 ## Data:
-This folder contains two distinct folders, ```raw``` and ```processed```. The ```raw``` folder contains the given raw data from TAP and the chunked extracted weather data. The ```processed``` folder contains the built datasets from code execution.
+This folder contains two distinct folders, ```raw``` and ```processed```. The ```raw``` folder is here to hold the raw data from the airline and the chunked extracted weather data. The ```processed``` folder contains the built datasets from code execution.
 
 ## Source Code:
 This folder contains three main folders, namely, ```preparation```, ```processing```, and ```modelling```, and a couple of files with global-supporting methods.
