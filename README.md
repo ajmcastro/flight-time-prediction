@@ -19,8 +19,9 @@ To do such assessment, one needs to know the expected block times for each fligh
 The goal of this project is to provide a machine learning model, that also considers weather information, that can predict the block times (or flight times and taxi times) long in advance, so that the impact assessement on the operational plan can be more accurate. 
 
 ## Project File Structure:
-The root of the project comprises four folders:
+The root of the project comprises five folders:
 * data - for the raw and processed datasets
+* doc - contains the master thesis document with details about this work
 * images - for any system-generated image (mainly plots)
 * models - for storing of the built models
 * src - with the source code
