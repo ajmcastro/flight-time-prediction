@@ -7,6 +7,7 @@ The models were trained on data from a European Airline air traffic activity fro
 
 After extensive experiments, the most successful models were built, making use of a stack of linear estimators with gradient boosting as meta-estimator.
 
+## Authors
 Main Author: Afonso Manuel Maia Lopes Salgado de Sousa (afonsousa2806@gmail.com)
 
 Supervisors: Ana Paula Rocha (arocha@fe.up.pt) and António J. M. Castro (frisky.antonio@gmail.com)
